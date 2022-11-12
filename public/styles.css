@@ -1,0 +1,186 @@
+body{
+  background-image: url(mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  color:white;
+  font-size:50px;
+  font-family: sans-serif;
+}
+
+h2{
+  color:white;
+  font-family: sans-serif;
+}
+
+h3{
+  color:white;
+  font-family: sans-serif;
+}
+
+.ul{
+  color:white;
+}
+
+h3{
+  margin-top: 40px;
+}
+/* .messagearea{
+  display:block;
+}
+
+.messages span{
+  display:block;
+}
+
+.message li{
+  display:inline-block;
+}
+
+ul{
+  display:inline-block;
+}
+
+.message span{
+  display:inline-block;
+}
+
+.fa-trash, .fa-smile-o{
+  display: inline-block;
+} */
+
+
+/* form{
+  border:2px solid white;
+  width:20%;
+  margin:auto;
+  display:flex;
+  justify-content:
+} */
+
+
+
+
+
+
+
+
+
+.happy{
+  background-color: #e7b2ff;
+  color:white;
+}
+
+.sad{
+  background-color: #2a3b90;
+  color:white;
+
+}
+
+.positiveMsg{
+  background-color: yellowgreen;
+  border: 2px solid yellow;
+
+}
+
+textarea{
+  display: flex;
+  justify-content: right;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  line-height:1.5;
+  font-size:1rem;
+  width:40%;
+  border-radius:1px;
+  height: calc(15vh - 15px);
+  border:1px solid rgba(196, 193, 193, 0.306);
+  margin-top: 0.75rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color:white;
+  color: rgb(46, 49, 54);
+  caret-color: rgb(153, 153, 153);
+  resize:none;
+}
+
+
+li{
+list-style: none;
+}
+
+
+
+/* h1{
+  display: flex;
+  margin: auto;
+  justify-content: right;
+}
+
+h2{
+  display: flex;
+  margin: auto;
+  justify-content: right;
+}
+
+h3{
+  display: flex;
+  margin: auto;
+  justify-content: right;
+} */
+
+button{
+ margin-left:-0.1rem;
+}
+
+/* Got the chat bubble from: https://codepen.io/tyanab_/pen/xxzddRo */
+
+.chat{
+  margin-left: 50%;
+}
+
+.message {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.mine {
+  align-items: flex-end;
+}
+
+.mine .message {
+  color: white;
+  margin-left: 25%;
+  background: linear-gradient(to bottom, #00D0EA 0%, #0085D1 100%);
+  background-attachment: fixed;
+  position: relative;
+}
+
+.mine .message.last:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  right: -8px;
+  height: 20px;
+  width: 20px;
+  background: linear-gradient(to bottom, #00D0EA 0%, #0085D1 100%);
+  background-attachment: fixed;
+  border-bottom-left-radius: 15px;
+}
+
+.mine .message.last:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: -10px;
+  width: 10px;
+  height: 20px;
+  background:#2a3b90;;
+  border-bottom-left-radius: 10px;
+}
